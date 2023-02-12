@@ -44,6 +44,20 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
     <ul class="tags-container">
       {tags.map(tag => <Tag name={tag} />)}
     </ul>
+
+<!--
+<h2 class="mt-12 mb-3 bold text-2xl font-bold">Bình luận</h2>
+    <div id="cusdis_thread" class="p-3" style="background-color: rgba(255,255,255, 0.3);"
+    
+  data-host="https://cusdis.com"
+  data-app-id="3b553ca2-1816-4028-bbc5-363e8e132d20"
+  data-page-id={Astro.url}
+  data-page-url={Astro.url}
+  data-page-title={title}
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+-->
+
   </main>
   <Footer />
 </Layout>
