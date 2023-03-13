@@ -7,14 +7,13 @@ import LinkButton from "@components/LinkButton.astro";
 import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
-import getSortedPosts from "@utils/getSortedPosts";
+//import getSortedPosts from "@utils/getSortedPosts";
 import slugify from "@utils/slugify";
 import { SOCIALS } from "@config";
+import { getCollection } from "@utils/orangeClient";
 
 const posts = await getCollection("blog");
-
-const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+const featuredPosts = posts.filter(({ frontmatter }) => frontmatter.featured);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
@@ -25,12 +24,19 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     <section id="hero">
       <h1>Lắng nghe hơi thở</h1>
       <p>
-      Ta quay về với sự sống nhiệm màu. Em ơi quay về đi, đừng mãi nổi trôi giữa biển rộng hư vô. Ngồi đây ta ngắm ánh nắng lúc bình minh mới dậy. Em có thấy con đường ta sẽ đi. 
+        Ta quay về với sự sống nhiệm màu. Em ơi quay về đi, đừng mãi nổi trôi
+        giữa biển rộng hư vô. Ngồi đây ta ngắm ánh nắng lúc bình minh mới dậy.
+        Em có thấy con đường ta sẽ đi.
       </p>
 
-<p>
-Chào bạn! Nếu đã ghé qua đây thì chắc hẳn chúng ta đã có duyên với nhau từ trước. Tôi là một nguời đôi khi thích suy nghĩ vẩn vơ về mọi thứ trên đời và viết chúng ra như một thú vui. Không có gì đúng, không có gì sai, chỉ là những dòng suy nghĩ luớt qua trong một buổi nào. Nếu bạn thích tôi rất vui. Nếu bạn không thích hãy ghé chân nơi nào làm bạn yên bình, tôi trân trọng sự yên bình của bạn, hãy giữ gìn nó nhé.
-</p>
+      <p>
+        Chào bạn! Nếu đã ghé qua đây thì chắc hẳn chúng ta đã có duyên với nhau
+        từ trước. Tôi là một nguời đôi khi thích suy nghĩ vẩn vơ về mọi thứ trên
+        đời và viết chúng ra như một thú vui. Không có gì đúng, không có gì sai,
+        chỉ là những dòng suy nghĩ luớt qua trong một buổi nào. Nếu bạn thích
+        tôi rất vui. Nếu bạn không thích hãy ghé chân nơi nào làm bạn yên bình,
+        tôi trân trọng sự yên bình của bạn, hãy giữ gìn nó nhé.
+      </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
@@ -44,16 +50,16 @@ Chào bạn! Nếu đã ghé qua đây thì chắc hẳn chúng ta đã có duy�
 
     <Hr />
 
-   <!-- {
+    <!-- {
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
             <h2>Featured</h2>
             <ul>
-              {featuredPosts.map(({ data }) => (
+              {featuredPosts.map(({ frontmatter }) => (
                 <Card
-                  href={import.meta.env.BASE_URL + `posts/${slugify(data)}`}
-                  frontmatter={data}
+                  href={import.meta.env.BASE_URL + `posts/${slugify(frontmatter)}`}
+                  frontmatter={frontmatter}
                   secHeading={false}
                 />
               ))}
@@ -68,12 +74,14 @@ Chào bạn! Nếu đã ghé qua đây thì chắc hẳn chúng ta đã có duy�
       <h2>Bài viết mới</h2>
       <ul>
         {
-          sortedPosts.map(
-            ({ data }, index) =>
+          posts.map(
+            ({ frontmatter }, index) =>
               index < 4 && (
                 <Card
-                  href={ import.meta.env.BASE_URL + `posts/${slugify(data)}`}
-                  frontmatter={data}
+                  href={
+                    import.meta.env.BASE_URL + `posts/${slugify(frontmatter)}`
+                  }
+                  frontmatter={frontmatter}
                   secHeading={false}
                 />
               )

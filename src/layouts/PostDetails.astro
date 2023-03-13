@@ -5,6 +5,7 @@ import Footer from "@components/Footer.astro";
 import Tag from "@components/Tag.astro";
 import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
+import showdown from "showdown";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -12,9 +13,11 @@ export interface Props {
 
 const { post } = Astro.props;
 
-const { title, author, description, ogImage, pubDatetime, tags } = post.data;
+const { title, author, description, ogImage, pubDatetime, tags } =
+  post.frontmatter;
+console.log(post.frontmatter);
 
-const { Content } = await post.render();
+const content = new showdown.Converter().makeHtml(post.raw_body);
 
 const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
   .href;
@@ -37,27 +40,16 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
   <main id="main-content">
     <h1 class="post-title">{title}</h1>
     <Datetime datetime={pubDatetime} size="lg" className="my-2" />
-    <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
-      <Content />
-    </article>
+    <article
+      id="article"
+      role="article"
+      class="prose mx-auto mt-8 max-w-3xl"
+      set:html={content}
+    />
 
     <ul class="tags-container">
       {tags.map(tag => <Tag name={tag} />)}
     </ul>
-
-<!--
-<h2 class="mt-12 mb-3 bold text-2xl font-bold">Bình luận</h2>
-    <div id="cusdis_thread" class="p-3" style="background-color: rgba(255,255,255, 0.3);"
-    
-  data-host="https://cusdis.com"
-  data-app-id="3b553ca2-1816-4028-bbc5-363e8e132d20"
-  data-page-id={Astro.url}
-  data-page-url={Astro.url}
-  data-page-title={title}
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
--->
-
   </main>
   <Footer />
 </Layout>

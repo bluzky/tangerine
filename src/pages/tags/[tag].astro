@@ -1,5 +1,5 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
+import { CollectionEntry } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
@@ -9,6 +9,7 @@ import getUniqueTags from "@utils/getUniqueTags";
 import getPostsByTag from "@utils/getPostsByTag";
 import slugify from "@utils/slugify";
 import { SITE } from "@config";
+import { getCollection } from "@utils/orangeClient";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -43,7 +44,7 @@ const tagPosts = getPostsByTag(posts, tag);
   >
     <ul>
       {
-        tagPosts.map(({ data }) => (
+        tagPosts.map(({ frontmatter: data }) => (
           <Card href={`/posts/${slugify(data)}`} frontmatter={data} />
         ))
       }
