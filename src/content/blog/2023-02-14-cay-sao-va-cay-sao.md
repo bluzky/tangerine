@@ -1,17 +1,35 @@
 ---
+---
 author: Tangerine
+
+---
 pubDatetime: 2023-02-14
+
+---
 title: Tản mạn chuyện cây tre (1)
+
+---
 postSlug: tan-man-cay-tre
-featured: true
+
+---
+featured: 'true'
+
+---
 tags:
   - tản mạn
-description: Suy ngẫm về chuyện giá trị của một cây tre
+
 ---
+description: Suy ngẫm về chuyện giá trị của một cây tre
+
+---
+ogImage: ''
+
+---
+
 
 Hôm trước lướt Phây Búc thấy nhỏ em đăng bài viết sưu tầm đâu đó. Copy lại để đây các bạn đọc xem có suy nghĩ như thế nào?
 
-#GIÁ TRỊ
+# GIÁ TRỊ
 
 Hai cây tre giống nhau, một cây dùng làm sáo, một cây dùng làm giá phơi đồ.
 
