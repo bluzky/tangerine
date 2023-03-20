@@ -91,4 +91,3 @@ All the [#docs](https://astro-paper.pages.dev/tags/docs/) blog posts and [README
 - in a tag page, the last part of the breadcrumb is now updated to lower-case for consistency
 - exclude draft posts in a tag page
 - fix 'onChange value not updating issue' after a page reload
-
