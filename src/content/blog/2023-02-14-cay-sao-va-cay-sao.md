@@ -3,7 +3,7 @@ author: Tangerine
 pubDatetime: 2023-02-14
 title: Tản mạn chuyện cây tre (1)
 postSlug: tan-man-cay-tre
-featured: 'true'
+featured: true
 tags:
   - tản mạn
 description: Suy ngẫm về chuyện giá trị của một cây tre
