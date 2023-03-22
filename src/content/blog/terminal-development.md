@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Sat Naingg
 pubDatetime: 2022-06-09T03:42:51Z
 title: How Do I Develop My Terminal Portfolio Website with React
 postSlug: how-do-i-develop-my-terminal-portfolio-website-with-react
