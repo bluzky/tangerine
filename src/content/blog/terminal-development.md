@@ -11,7 +11,7 @@ tags:
   - Styled-Components
 description: 'EXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.'
 ogImage: ''
-draft: 'true'
+draft: true
 ---
 
 
