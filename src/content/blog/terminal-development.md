@@ -10,9 +10,10 @@ tags:
   - ContextAPI
   - Styled-Components
 description: 'EXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.'
-draft: true
 ogImage: ''
+draft: 'true'
 ---
+
 
 
 > This article is originally from my [blog post](https://satnaing.dev/blog/posts/how-do-i-develop-my-terminal-portfolio-website-with-react). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
