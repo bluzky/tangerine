@@ -1,16 +1,18 @@
 ---
 author: Sat Naing
-pubDatetime: 2022-07-05T02:05:51Z
+pubDatetime:
+  2022-07-05
 title: Tailwind Typography Plugin
 postSlug: ''
+featured: false
 tags:
   - TypeScript
   - Astro
 description: 'EXAMPLE POST: About Tailwind Typography Plugin and how you can use it effectively.'
-ogImage: ''
+ogImage: https://raw.githubusercontent.com/bluzky/tangerine/main/public/assets/Nho%2Bchile%2B3%2Bmau.jpg
 draft: true
 ---
-
+![](https://raw.githubusercontent.com/bluzky/tangerine/main/public/assets/logo-h.png)
 
 
 > This article is from [TailwindLabs](https://tailwindcss-typography.vercel.app/). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
@@ -25,7 +27,7 @@ We get lots of complaints about it actually, with people regularly asking us thi
 The `@tailwindcss/typography` plugin is our attempt to give you what you _actually_ want, without any of the downsides of doing something stupid like disabling our base styles.
 
 It adds a new `prose` class that you can slap on any block of vanilla HTML content and turn it into a beautiful, well-formatted document:
-
+![](https://raw.githubusercontent.com/bluzky/tangerine/main/public/assets/1.png)
 ```html
 <article class="prose">
   <h1>Garlic bread with cheese: What the science tells us</h1>
