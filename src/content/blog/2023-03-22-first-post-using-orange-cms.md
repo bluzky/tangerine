@@ -11,6 +11,9 @@ description: ''
 ogImage: ''
 draft: false
 ---
+
+![image](/astropaper-og.jpg)
+
 Mấy hôm nay đọc tin tức, thấy những cảnh xót xa mà cơn động đất đã để lại ở Thổ Nhĩ Kỳ và Syria. Cảm thấy thật biết ơn và may mắn khi mình được sống an toàn, dễ chịu ở đây. Khi nghĩ về những nạn nhân, những người đang nằm tuyệt vọng dưới đống đổ nát, những người đã mất đi những người thân yêu của họ, đó thực sự là một nỗi đau mà những người như chúng ta không hình dung nổi.
 
 Tôi tưởng tượng khi bố mẹ hay vợ, con gái nhỏ của tôi đang nằm dưới đống đổ nát đó; hay là khi chính tôi đang nằm ở đó, cơ thể đau đớn, bị dày vò bởi đói, khát và lạnh cóng của tuyết, nằm chờ đợi và đang chết dần trong tuyệt vọng. Những cảm giác đó khiến trái tim tôi như muốn nổ tung khỏi lồng ngực.
