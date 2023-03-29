@@ -2,7 +2,7 @@
 author: Dzung Nguyen
 pubDatetime:
   2023-03-29
-title: Ta là một chuyên gia về chuyện người khác
+title: Ta là một chuyên gia
 postSlug: ta-la-chuyen-gia
 featured: true
 description: Lúc nào ta cũng thấy rõ vấn đề của người khác, còn chính chúng ta thì sao
