@@ -1,22 +1,15 @@
 ---
 author: Sat Naingg
-pubDatetime: 2022-06-09T03:42:51Z
+pubDatetime:
+  2022-06-09
 title: How Do I Develop My Terminal Portfolio Website with React
 postSlug: how-do-i-develop-my-terminal-portfolio-website-with-react
-tags:
-  - TypeScript
-  - JavaScript
-  - ReactJS
-  - ContextAPI
-  - Styled-Components
+featured: false
 description: 'EXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.'
 ogImage: ''
 draft: true
 ---
-
-
-
-> This article is originally from my [blog post](https://satnaing.dev/blog/posts/how-do-i-develop-my-terminal-portfolio-website-with-react). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
+> This article is originally from my blog post. I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
 
 Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.
 
@@ -44,11 +37,11 @@ This project doesn’t need very complex state management. I just use ContextAPI
 
 Here’s a quick recap for the tech stack.
 
-- Frontend: [ReactJS](https://reactjs.org/ "React Website"), [TypeScript](https://www.typescriptlang.org/ "TypeScript Website")
-- Styling: [Styled-Components](https://styled-components.com/ "Styled-Components Website")
-- UI/UX: [Figma](https://figma.com/ "Figma Website")
-- State Management: [ContextAPI](https://reactjs.org/docs/context.html "React ContextAPI")
-- Deployment: [Netlify](https://www.netlify.com/ "Netlify Website")
+- Frontend: ReactJS, TypeScript
+- Styling: Styled-Components
+- UI/UX: Figma
+- State Management: ContextAPI
+- Deployment: Netlify
 
 ## Features
 
@@ -84,5 +77,5 @@ This is a really fun project, and one special part of this project is I had to f
 
 ## Project Links
 
-- Website: [https://terminal.satnaing.dev/](https://terminal.satnaing.dev/ "https://terminal.satnaing.dev/")
-- Repo: [https://github.com/satnaing/terminal-portfolio](https://github.com/satnaing/terminal-portfolio "https://github.com/satnaing/terminal-portfolio")
+- Website: https://terminal.satnaing.dev/
+- Repo: https://github.com/satnaing/terminal-portfolio
