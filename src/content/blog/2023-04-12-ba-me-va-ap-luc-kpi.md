@@ -9,7 +9,7 @@ tags:
   - tản mạn
 description: Không phải đi làm mới stress, chăm con stress có khi còn nhiều hơn.
 ogImage: ''
-draft: true
+draft: false
 ---
 Tôi thường nói đùa với vợ "Niềm vui của ba mẹ mong manh như làn khói". Con ăn nhiều. Vui. Con không chịu ăn. Muốn bỏ ăn theo.
 
@@ -21,7 +21,7 @@ Chỉ riêng chuyện con ăn uống thế nào là đủ lo rồi. Dưới 6 th
 
 Tôi đọc sách nọ thấy nói em bé phải uống được ngày 720ml, rồi ăn dặm ngày 2 bữa thì phải uống được 600ml. Vậy là ngày nào cũng là một ngày lo lắng, căng thẳng. Đến trưa mà con chưa uống được 300ml, hoặc con không chịu ăn, ăn ít, hoặc con ăn mà không chịu bú chỉ ham chơi. Ba mẹ sợ con đói, canh giờ cho nó bú, 2 tiếng rồi, 3 tiếng rồi, 4 tiếng rồi mà ko bú chút nào. Ba mẹ thì cố nhét cái núm vào miệng con, bé con không chịu, khóc la ầm cả lên. Hoặc là khi gắng đút cho ăn mà con mím chặt miệng, đẩy muỗng đồ ăn văng tung tóe. Ba mẹ ruột gan như lửa đốt, muốn bỏ ăn trầm cảm luôn. Nhiều khi bực mình muốn bạo hành luôn (nhưng con mình, kìm được). Vậy mới hiểu mấy cô giữ trẻ, không phải con họ, mà họ không có đủ kiên nhẫn thì dễ mà bạo hành lên báo lắm.
 
-Quả thật là áp lực, áp lực lắm. Mấy chị chịu áp lực như vậy thì xứng đáng làm trụ cột gia đình hơn mấy anh đấy. Quả thực tôi cũng không biết mấy con số đó đâu ra mà cha mẹ phải cố gắng đạt được. Ngày nào mà con ăn uống đủ là vui hơn cả tháng lương 13. 
+Quả thật là áp lực, áp lực lắm. Mấy chị chịu áp lực như vậy thì xứng đáng làm trụ cột gia đình hơn mấy anh đấy. Quả thực tôi cũng không biết mấy con số đó đâu ra mà cha mẹ phải cố gắng đạt được. Ngày nào mà con ăn uống đủ là vui hơn cả tháng lương 13.
 
 Quá mệt mỏi tôi dần nghĩ chuyện ăn, ngủ là bản năng sao phải ép. Trừ khi con bị vấn đề gì sức khỏe thì mới lo, con còn vui chơi nhanh nhẹn thì sao phải lo quá nhiều vậy. Con tự biết khi nào con đói, khi nào con buồn ngủ. Cơn đói của con đâu phải chạy theo cái đồng hồ cứ đúng 3h là con ăn, nhiều khi con mệt thì sao. Ba mẹ cứ đi đoán cơn đói của con rồi ép con ăn, cả 2 bên đều đau khổ, bể khổ mỗi người lại dâng lên một ít.
 
