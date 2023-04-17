@@ -2,7 +2,7 @@
 author: Dzung Nguyen
 pubDatetime:
   2023-04-17
-title: Khi nào nên có con?
+title: Đừng để con mang tên "LỠ"
 postSlug: khi-nao-nen-co-con
 featured: true
 tags:
