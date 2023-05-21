@@ -8,7 +8,7 @@ featured: false
 tags:
   - tản mạn
 description: Ta chỉ là những viên pin, cạn kiệt trong thế giới ngập tràn những lo âu.
-ogImage: ''
+ogImage: /assets/pin-can.jpg
 draft: false
 ---
 Nghe thầy Minh Niệm giảng nhiều, thầy hay dùng từ dung lượng trái tim. Tôi nghĩ thật đúng, con người ta cũng như những viên pin, có viên to, viên nhỏ, khi đầy khi cạn.
@@ -19,6 +19,4 @@ Nếu ta không làm gì thì dung lượng những viên pin của ta cũng ch�
 
 Những viên pin cạn chẳng còn chút năng lượng nào mà san sẻ. Không những vậy mà còn rút cạn cả những viên pin khác. Lúc giận giữ ta nào có giúp ai hạnh phúc, ta không chỉ làm cho mình khổ mà còn làm những người xung quanh mình khổ, mà người khổ nhất lại là những người ta thương yêu nhất. Khi viên pin trong ta ngập tràn năng lượng thì niềm hạnh phúc đó không phải chỉ của mình ta đâu.
 
- Nhưng sao đôi mắt ta chỉ hướng ra ngoài mà chẳng nhận ra trong mình đang trống rỗng. Tâm trí bận rộn chẳng mất lúc chịu dừng lại nghỉ ngơi. Một phút ngồi tĩnh lặng thật khó khi mà điện thoại đang ngay trước mặt. Những thứ tưởng chừng như giải trí, rút cục lại chỉ làm cho ta thêm cạn kiệt và kéo ta vào sâu hơn trong đám mây đen giận dữ. Suy nghĩ mờ đi, và ta bước trên con hẻm vào nơi ta đánh mất mình, chẳng còn lại gì ngoài một cái xác sống và làm việc để rồi chết. Ta đã chết trước khi cơ thể này ngừng lại.
-
-
+Nhưng sao đôi mắt ta chỉ hướng ra ngoài mà chẳng nhận ra trong mình đang trống rỗng. Tâm trí bận rộn chẳng mất lúc chịu dừng lại nghỉ ngơi. Một phút ngồi tĩnh lặng thật khó khi mà điện thoại đang ngay trước mặt. Những thứ tưởng chừng như giải trí, rút cục lại chỉ làm cho ta thêm cạn kiệt và kéo ta vào sâu hơn trong đám mây đen giận dữ. Suy nghĩ mờ đi, và ta bước trên con hẻm vào nơi ta đánh mất mình, chẳng còn lại gì ngoài một cái xác sống và làm việc để rồi chết. Ta đã chết trước khi cơ thể này ngừng lại.
