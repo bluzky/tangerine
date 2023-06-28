@@ -3,22 +3,19 @@ author: Sat Naing
 pubDatetime: 2022-09-23T04:58:53Z
 title: How to configure AstroPaper theme
 postSlug: how-to-configure-astropaper-theme
-featured: true
-draft: true
-tags:
-  - configuration
-  - docs
-ogImage: ""
+featured: ''
+tags: configurationdocs
 description: How you can make AstroPaper theme absolutely yours.
+ogImage: ''
+draft: ''
 ---
-
 AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.
 
 ## Table of contents
 
 ## Configuring SITE
 
-First of all, replace site property of _`astro.config.mjs` file with your own deployed domain. (You can omit this step if you don't have deployed domain yet or you are still in development mode)_
+First of all, replace site property of `astro.config.mjs` file with your own deployed domain. (You can omit this step if you don't have deployed domain yet or you are still in development mode)
 
 Another important configurations lies in `src/config.ts` file. Within that file, you'll see the `SITE` object where you can specify your website's main configurations.
 
@@ -33,19 +30,14 @@ export const SITE = {
   lightAndDarkMode: true,
   postPerPage: 3,
 };
+
+
+
 ```
 
 Here are SITE configuration options
 
-| Options            | Description                                                                                                                                                  |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `website`          | Your deployed website url                                                                                                                                    |
-| `author`           | Your name                                                                                                                                                    |
-| `desc`             | Your site description. Useful for SEO and social media sharing.                                                                                              |
-| `title`            | Your site name                                                                                                                                               |
-| `ogImage`          | Your default OG image for the site. Useful for social media sharing. OG images can be an external image url or they can be placed under `/public` directory. |
-| `lightAndDarkMode` | Enable or disable `light & dark mode` for the website. If disabled, primary color scheme will be used. This option is enabled by default.                    |
-| `postPerPage`      | You can specify how many posts will be displayed in each posts page. (eg: if you set SITE.postPerPage to 3, each page will only show 3 posts per page)       |
+Options Description `website` Your deployed website url `author` Your name `desc` Your site description. Useful for SEO and social media sharing. `title` Your site name `ogImage` Your default OG image for the site. Useful for social media sharing. OG images can be an external image url or they can be placed under `/public` directory. `lightAndDarkMode` Enable or disable `light & dark mode` for the website. If disabled, primary color scheme will be used. This option is enabled by default. `postPerPage` You can specify how many posts will be displayed in each posts page. (eg: if you set SITE.postPerPage to 3, each page will only show 3 posts per page)
 
 ## Configuring logo or title
 
@@ -61,17 +53,20 @@ export const LOGO_IMAGE = {
   width: 216,
   height: 46,
 };
+
+
+
 ```
 
 If you specify `LOGO_IMAGE.enable` => `false`, AstroPaper will automatically convert `SITE.title` to the main site text logo.
 
 If you specify `LOGO_IMAGE.enable` => `true`, AstroPaper will use the logo image as the site's main logo.
 
-You have to specify `logo.png` or `logo.svg` under `/public/assets` directory. Currently, only svg and png image file formats are supported. (**_Important!_** _logo name has to be logo.png or logo.svg)_
+You have to specify `logo.png` or `logo.svg` under `/public/assets` directory. Currently, only svg and png image file formats are supported. (***Important!*** *logo name has to be logo.png or logo.svg)*
 
 If your logo image is png file format, you have to set `LOGO_IMAGE.svg` => `false`.
 
-It is recommended that you specify width and height of your logo image. You can do that by setting `LOGO_IMAGE.width` _and_ `LOGO_IMAGE.height`
+It is recommended that you specify width and height of your logo image. You can do that by setting `LOGO_IMAGE.width` *and* `LOGO_IMAGE.height`
 
 ## Configuring social links
 
@@ -106,6 +101,9 @@ export const SOCIALS: SocialObjects = [
   },
   ...
 ]
+
+
+
 ```
 
 You have to set specific social link to `active: true` in order to appear your social links in hero and footer section. Then, you also have to specify your social link in `href` property.
@@ -122,6 +120,9 @@ export const SOCIALS: SocialObjects = [
   }
   ...
 ]
+
+
+
 ```
 
 Another thing to note is that you can specify the `linkTitle` in the object. This text will display when hovering on the social icon link. Besides, this will improve accessibility and SEO. AstroPaper provides default link title values; but you can replace them with your own texts.
@@ -130,12 +131,18 @@ For example,
 
 ```js
 linkTitle: `${SITE.title} on Twitter`,
+
+
+
 ```
 
 to
 
 ```js
 linkTitle: `Follow ${SITE.title} on Twitter`;
+
+
+
 ```
 
 ## Conclusion
