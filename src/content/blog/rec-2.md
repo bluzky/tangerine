@@ -2,15 +2,10 @@
 author: Sat Naing
 pubDatetime:
   2022-06-06
-title: My recent article 2
+title: My recent article 22
 postSlug: my-recent-2
-featured: false
-tags:
-  - TypeScript
-  - Astro
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est
 ogImage: https://raw.githubusercontent.com/bluzky/tangerine/main/public/assets/1.png
-draft: true
 ---
 Mấy hôm nay đọc tin tức, thấy những cảnh xót xa mà cơn động đất đã để lại ở Thổ Nhĩ Kỳ và Syria. Cảm thấy thật biết ơn và may mắn khi mình được sống an toàn, dễ chịu ở đây. Khi nghĩ về những nạn nhân, những người đang nằm tuyệt vọng dưới đống đổ nát, những người đã mất đi những người thân yêu của họ, đó thực sự là một nỗi đau mà những người như chúng ta không hình dung nổi.
 
