@@ -2,18 +2,11 @@
 author: Sat Naing
 pubDatetime:
   2023-01-30
-title: AstroPaper 2.0
+title: AstroPaper 2.00
 postSlug: astro-paper-2
-featured: true
-tags:
-  - release
 description: AstroPaper with the enhancements of Astro v2. Type-safe markdown contents, bug fixes and better dev experience etc.
 ogImage: https://user-images.githubusercontent.com/53733092/215771435-25408246-2309-4f8b-a781-1f3d93bdf0ec.png
-draft: true
 ---
-
-
-
 Astro 2.0 has been released with some cool features, breaking changes, DX improvements, better error overlay and so on. AstroPaper takes advantage of those cool features, especially Content Collections API.
 
 <!-- ![Introducing AstroPaper 2.0](https://user-images.githubusercontent.com/53733092/215683840-dc2502f5-8c5a-44f0-a26c-4e7180455056.png) -->
@@ -43,6 +36,7 @@ Contents are now fetched with `getCollection` function. No relative path to the 
 
 // new content fetching method
 + const postImportResult = await getCollection("blog");
+
 ```
 
 ### Modified Search Logic for better Search Result
@@ -53,10 +47,7 @@ In the older version of AstroPaper, when someone search some article, the search
 
 The following frontmatter properties are renamed.
 
-| Old Names | New Names   |
-| --------- | ----------- |
-| datetime  | pubDatetime |
-| slug      | postSlug    |
+Old Names New Names datetime pubDatetime slug postSlug
 
 ### Default Tag for blog post
 
@@ -71,6 +62,7 @@ export const blogSchema = z.object({
   ogImage: z.string().optional(),
   description: z.string(),
 });
+
 ```
 
 ### New Predefined Dark Color Scheme
